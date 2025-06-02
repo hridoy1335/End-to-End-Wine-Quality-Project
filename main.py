@@ -2,6 +2,7 @@ import sys
 from src.wine.logger import logging
 from src.wine.exception import WineException
 from src.wine.components.data_ingestion import DataIngestion
+from src.wine.components.model_trainning import ModelTraining
 from src.wine.components.data_transformation import DataTransfromation
 
 
@@ -22,11 +23,20 @@ if __name__ == "__main__":
     try:
         logging.info(f"**************************************{data_tranfrom_stage_name}************************************")
         data_tranformation = DataTransfromation()
-        data_tranformation.initiate_data_transfrom(train_data,
-                                                   test_data)
+        train_arr,test_arr,_ = data_tranformation.initiate_data_transfrom(train_data,
+                                                                          test_data)
         logging.info(f"**********************************************{"complate"}***************************************************\n")
     except Exception as e:
         raise WineException(e, sys)
     
-    
-    
+model_training_stage_name = "Model Training Stage"
+
+if __name__ == "__main__":
+    try:
+        logging.info(f"**************************************{model_training_stage_name}************************************")
+        model_training = ModelTraining()
+        model_training.initiate_model_training(train_arr,
+                                               test_arr)
+        logging.info(f"**********************************************{"complate"}***************************************************")
+    except Exception as e:
+        raise WineException(e, sys)

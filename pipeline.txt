@@ -14,4 +14,9 @@
                                                   -> transformed -> transformed_test.csv
                                                   -> processor -> processor.pkl
 
+# model training pipeline workflow
+    constants -> config/configuration -> components/model_training
+
+# data transformation pipeline folder structure
+    artifacts -> timestamp -> model_training -> model -> model.pkl
 

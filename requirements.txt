@@ -17,5 +17,7 @@ from_root
 pymongo
 python-dotenv
 gdown
+dagshub
+dvc
 
 -e . # editble mode

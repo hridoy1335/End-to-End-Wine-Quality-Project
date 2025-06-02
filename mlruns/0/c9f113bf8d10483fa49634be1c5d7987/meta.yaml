@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mac/Developer/End-to-End-Wine-Quality-Project/mlruns/0/c9f113bf8d10483fa49634be1c5d7987/artifacts
+end_time: 1748871174824
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9f113bf8d10483fa49634be1c5d7987
+run_name: zealous-elk-898
+run_uuid: c9f113bf8d10483fa49634be1c5d7987
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748871174817
+status: 3
+tags: []
+user_id: mac

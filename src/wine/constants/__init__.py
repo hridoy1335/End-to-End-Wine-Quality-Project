@@ -32,3 +32,7 @@ DATA_TRANSFORMATION_PROCESSOR_OBJ = "processor.pkl"
 DATA_TRANSFORMATION_TRANSFOMATION_DIR = "transformation"
 DATA_TRANSFORMATION_TRAIN_FILE_NAME = "transformation_train.csv"
 DATA_TRANSFORMATION_TEST_FILE_NAME = "transformation_test.csv"
+
+# model training folder name
+MODEL_TRAINING_DIR = "model"
+MODEL_TRAINING_FILE_NAME = "model.pkl"

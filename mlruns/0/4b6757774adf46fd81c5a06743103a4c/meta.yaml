@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mac/Developer/End-to-End-Wine-Quality-Project/mlruns/0/4b6757774adf46fd81c5a06743103a4c/artifacts
+end_time: 1748870953900
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b6757774adf46fd81c5a06743103a4c
+run_name: whimsical-bird-343
+run_uuid: 4b6757774adf46fd81c5a06743103a4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748870953895
+status: 3
+tags: []
+user_id: mac

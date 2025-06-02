@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mac/Developer/End-to-End-Wine-Quality-Project/mlruns/0/4660c36cb2324b8c9b72f8e2f481654c/artifacts
+end_time: 1748870297936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4660c36cb2324b8c9b72f8e2f481654c
+run_name: big-boar-107
+run_uuid: 4660c36cb2324b8c9b72f8e2f481654c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748870297931
+status: 3
+tags: []
+user_id: mac

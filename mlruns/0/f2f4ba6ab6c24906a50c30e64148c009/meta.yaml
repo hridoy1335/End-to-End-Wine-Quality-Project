@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mac/Developer/End-to-End-Wine-Quality-Project/mlruns/0/f2f4ba6ab6c24906a50c30e64148c009/artifacts
+end_time: 1748870009019
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2f4ba6ab6c24906a50c30e64148c009
+run_name: upbeat-ant-534
+run_uuid: f2f4ba6ab6c24906a50c30e64148c009
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748870009014
+status: 3
+tags: []
+user_id: mac

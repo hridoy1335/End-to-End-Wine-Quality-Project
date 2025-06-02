@@ -34,3 +34,10 @@ TRANSFROM_TRAIN_FILE_PATH = os.path.join(ROOT_DIR,ARTIFACTS_DIR,CURRENT_TIME_STA
 # transform test data folder create and the data save
 TRANSFROM_TEST_FILE_PATH = os.path.join(ROOT_DIR,ARTIFACTS_DIR,CURRENT_TIME_STAMP,DATA_TRANSFORMATION_DIR,
                                         DATA_TRANSFORMATION_TRANSFOMATION_DIR,DATA_TRANSFORMATION_TEST_FILE_NAME)
+
+
+
+# ****************************************************** MODEL TRAINING ****************************************************
+# model training folder create and the data save
+MODEL_TRAINING_OBJ_FILE = os.path.join(ROOT_DIR,ARTIFACTS_DIR,CURRENT_TIME_STAMP,MODEL_TRAINING_DIR,
+                                       MODEL_TRAINING_FILE_NAME)

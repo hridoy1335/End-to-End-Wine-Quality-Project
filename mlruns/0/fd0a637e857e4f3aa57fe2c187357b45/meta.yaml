@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mac/Developer/End-to-End-Wine-Quality-Project/mlruns/0/fd0a637e857e4f3aa57fe2c187357b45/artifacts
+end_time: 1748870868571
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd0a637e857e4f3aa57fe2c187357b45
+run_name: popular-lynx-930
+run_uuid: fd0a637e857e4f3aa57fe2c187357b45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748870868565
+status: 3
+tags: []
+user_id: mac

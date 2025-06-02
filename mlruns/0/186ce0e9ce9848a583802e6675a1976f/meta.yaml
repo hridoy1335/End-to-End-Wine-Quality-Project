@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/mac/Developer/End-to-End-Wine-Quality-Project/mlruns/0/186ce0e9ce9848a583802e6675a1976f/artifacts
+end_time: 1748870228732
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 186ce0e9ce9848a583802e6675a1976f
+run_name: delightful-kit-749
+run_uuid: 186ce0e9ce9848a583802e6675a1976f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748870228727
+status: 3
+tags: []
+user_id: mac
