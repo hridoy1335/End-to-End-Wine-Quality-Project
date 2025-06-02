@@ -14,3 +14,13 @@ def save_obj(file_path, obj):
         raise ValueError(f'save obj error: {e}')
     except Exception as e:
         raise e
+    
+    
+def load_obj(file_path):
+    try:
+        with open(file_path,'rb') as file:
+            return pickle.load(file)
+    except BoxValueError:
+        raise ValueError(f'load obj error: {e}')
+    except Exception as e:
+        raise e

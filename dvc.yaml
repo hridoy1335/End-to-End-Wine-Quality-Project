@@ -1,0 +1,22 @@
+stages:
+  data_ingestion:
+    cmd: python src/wine/components/data_ingestion.py
+    deps:
+    - src/wine/components/data_ingestion.py
+    outs:
+    - src/wine/config/configuration.py
+  data_tranformation:
+    cmd: python src/wine/components/data_tranformation.py
+    deps:
+    - src/wine/components/data_ingestion.py
+    - src/wine/components/data_tranformation.py
+    outs:
+    - src/wine/components/data_tranformation.py
+
+  model_training:
+    cmd: python src/wine/components/model_trainning.py
+    deps:
+    - src/wine/components/data_tranformation.py
+    - src/wine/components/model_trainning.py
+    outs:
+    - src/wine/config/configuration.py
