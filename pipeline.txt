@@ -1,0 +1,7 @@
+# data ingestion pipeline workflow
+    constants -> config/configuration -> components/data_ingestion
+
+# data ingestion pipeline folder structure
+    artifacts -> timestamp -> data_ingestion -> raw_data -> raw.csv
+                                             -> ingested -> train.csv
+                                             -> ingested -> test.csv                 
