@@ -16,6 +16,7 @@ DATA_NAME = "wine_data.csv"
 
 # artifacts folder name
 ARTIFACTS_DIR = "artifacts"
+
 # data ingestion folder name
 DATA_INGESTION_DIR = "data_ingestion"
 DATA_INGESTION_ROW_DATA_DIR = "row_data"
@@ -23,3 +24,11 @@ ROW_DATA_FILE_NAME = "wine.csv"
 DATA_INGESTION_INGESTED_DATA_DIR = "ingested"
 TRAIN_DATA_FILE_NAME = "train.csv"
 TEST_DATA_FILE_NAME = "test.csv"
+
+#data transformation folder name
+DATA_TRANSFORMATION_DIR = "data_transformation"
+DATA_TRANSFORMATION_PROCESSOR_DIR = "processor"
+DATA_TRANSFORMATION_PROCESSOR_OBJ = "processor.pkl"
+DATA_TRANSFORMATION_TRANSFOMATION_DIR = "transformation"
+DATA_TRANSFORMATION_TRAIN_FILE_NAME = "transformation_train.csv"
+DATA_TRANSFORMATION_TEST_FILE_NAME = "transformation_test.csv"

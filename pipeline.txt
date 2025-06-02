@@ -4,4 +4,14 @@
 # data ingestion pipeline folder structure
     artifacts -> timestamp -> data_ingestion -> raw_data -> raw.csv
                                              -> ingested -> train.csv
-                                             -> ingested -> test.csv                 
+                                             -> ingested -> test.csv  
+
+# data transformation pipeline workflow
+    constants -> config/configuration -> utils -> components/data_transformation
+
+# data transformation pipeline folder structure
+    artifacts -> timestamp -> data_transformation -> transformed -> transformed_train.csv
+                                                  -> transformed -> transformed_test.csv
+                                                  -> processor -> processor.pkl
+
+
